@@ -1,5 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */
