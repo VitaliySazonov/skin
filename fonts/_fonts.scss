@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@mixin josefin_font {
+    font-family: 'Josefin Sans', sans-serif;
+}
+@mixin lato_font {
+    font-family: 'Lato', sans-serif;
+}

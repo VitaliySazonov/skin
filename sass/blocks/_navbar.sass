@@ -1,0 +1,74 @@
+.navbar
+  position: fixed
+  left: 0
+  top: 0
+  width: 100%
+  background-color: #fff
+  z-index: 99
+  &-wrap
+    display: flex
+    align-items: center
+    justify-content: space-between
+    min-height: 80px
+  &__menu-button
+    margin-right: 30px
+  &__mobile, &__landline
+    text-align: right
+  &__phone
+    display: block
+    margin-bottom: 5px
+    font-size: 19px
+    +lato_font
+    color: $text-color-light
+  &__small-text
+    font-size: 14px
+    color: $text-color-light
+.menu
+  position: fixed
+  z-index: -1
+  top: 90px
+  left: 0
+  width: 100%
+  padding: 16px 0
+  background-color: $primary
+  color: #ffffff
+  transition: 0.2s
+  transform: translateY(-100%)
+  &_active
+    transform: translateY(0)
+  &__nav
+    display: flex
+    align-items: cente
+    justify-content: space-around
+  &__link
+    font-size: 17px
+    text-transform: uppercase
+    color: #ffffff
+  &-button
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      border: none
+      background-color: transparent
+      border-right: 1px solid rgba(#510bba, 0.1)
+      border-left: 1px solid rgba(#510bba, 0.1)
+      height: 90px
+      width: 70px
+      &_line
+        display: block
+        width: 20px
+        height: 3px
+        background-color: #89a9eb
+        margin: 5px 10px
+.logo
+  &__text
+    display: block
+    margin-bottom: 5px
+    font-size: 18px
+    text-transform: uppercase
+    +lato_font
+  &__description
+    display: block
+    font-size: 14px
+    color: $text-color-light

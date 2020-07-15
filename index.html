@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Skin</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="navbar">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skin</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="navbar">
+      <div class="menu">
         <div class="container">
-          <button class="menu-button">
+          <nav class="menu__nav container">
+            <a href="#" class="menu__link">Main</a>
+            <a href="#" class="menu__link">Product</a>
+            <a href="#" class="menu__link">Jobs</a>
+            <a href="#" class="menu__link">Images</a>
+            <a href="#" class="menu__link">Costs</a>
+            <a href="#" class="menu__link">About</a>
+            <a href="#" class="menu__link">No</a>
+          </nav>
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.menu -->
+      <div class="container">
+        <div class="navbar-wrap">
+          <button class="menu-button navbar__menu-button">
             <span class="menu-button_line"></span>
             <span class="menu-button_line"></span>
             <span class="menu-button_line"></span>
@@ -22,22 +40,31 @@
           <!-- /.logo navbar__logo -->
           <div class="navbar__mobile">
             <a class="navbar__phone" href="tel:+79112121212">79112121212</a>
-            <span class="navbar__work-time">without weekends 9 00 - 20 00</span>
+            <span class="navbar__work-time navbar__small-text">Lorem, ipsum dolor.</span>
           </div>
           <!-- /.navbar__mobile -->
           <div class="navbar__landline">
             <a class="navbar__phone" href="tel:+79112121212">79112121212</a>
-            <a class="navbar__email" href="mailto:info@mail.cu">info@mail.cu</a>
+            <a class="navbar__email navbar__small-text" href="mailto:info@mail.cu">info@mail.cu</a>
           </div>
           <!-- /.navbar__landline -->
           <button class="button-o navbar__button">Get consultation</button>
         </div>
-        <!-- /.container -->
+        <!-- /.navbar_wrap -->
       </div>
-      <!-- /.navbar -->
-      <div class="hero"></div>
-      <!-- /.hero -->
-    </header>
-    <!-- /.header -->
-  </body>
+      <!-- /.container -->
+    </div>
+    <!-- /.navbar -->
+    <div class="hero">
+      <div class="container">
+        <h1 class="hero__title">Garantie <br> minimal aim <br> at skin</h1>
+        <span class="hero__subtitle">from 3 000 r/m2</span>
+        <button class="button hero__button">Order</button>
+      </div>
+    </div>
+    <!-- /.hero -->
+  </header>
+  <!-- /.header -->
+</body>
+
 </html>
